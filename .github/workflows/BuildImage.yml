@@ -4,7 +4,7 @@ on: [push, pull_request, workflow_dispatch]
 
 env:
   ENDPOINT: "bambam018/docker-mod-java17"
-  BRANCH: "master"
+  BRANCH: "template"
 
 jobs:
   build:
