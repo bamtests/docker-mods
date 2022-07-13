@@ -3,8 +3,8 @@ name: Build Image
 on: [push, pull_request, workflow_dispatch]
 
 env:
-  ENDPOINT: "linuxserver/mods" #don't modify
-  BASEIMAGE: "replace_baseimage" #replace
+  ENDPOINT: "bambam018/docker-mods" #don't modify
+  BASEIMAGE: "code-server" #replace
   MODNAME: "replace_modname" #replace
 
 jobs:
