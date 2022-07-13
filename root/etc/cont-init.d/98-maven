@@ -2,4 +2,4 @@
 
 echo "**** installing java17 dev environment ****"
 apt-get install -y \
-    openjdk-17-jdk
+    maven
