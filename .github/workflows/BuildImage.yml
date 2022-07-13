@@ -6,7 +6,7 @@ env:
   ENDPOINT: "bambam018/docker-mods" #don't modify
   BASEIMAGE: "code-server" #replace
   MODNAME: "java17" #replace
-  BRANCH: "master"
+  BRANCH: "template"
 
 jobs:
   build:
